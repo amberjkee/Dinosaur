@@ -1,0 +1,299 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5946487743975872871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7556879574358072104}
+  - component: {fileID: 3727191431179529642}
+  - component: {fileID: 7094953345338531015}
+  m_Layer: 5
+  m_Name: TMP SubMeshUI [Brokgauz & Efron SDF Material + LiberationSans SDF Atlas]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7556879574358072104
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5946487743975872871}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8027344568916914056}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3727191431179529642
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5946487743975872871}
+  m_CullTransparentMesh: 0
+--- !u!114 &7094953345338531015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5946487743975872871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 058cba836c1846c3aa1c5fd2e28aea77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_spriteAsset: {fileID: 0}
+  m_material: {fileID: 0}
+  m_sharedMaterial: {fileID: 0}
+  m_isDefaultMaterial: 0
+  m_padding: 0.5
+  m_canvasRenderer: {fileID: 3727191431179529642}
+  m_TextComponent: {fileID: 895591927302012534}
+  m_materialReferenceIndex: 1
+--- !u!1 &6431300427397574219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8027344568916914056}
+  - component: {fileID: 1361276887183681020}
+  - component: {fileID: 895591927302012534}
+  - component: {fileID: 8837209743661003286}
+  - component: {fileID: 4908142108187509512}
+  m_Layer: 5
+  m_Name: Literature
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8027344568916914056
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6431300427397574219}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7556879574358072104}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1000, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1361276887183681020
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6431300427397574219}
+  m_CullTransparentMesh: 0
+--- !u!114 &895591927302012534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6431300427397574219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_text: "\r\n1. \u041E\u0436\u0433\u0438\u0431\u0435\u0441\u043E\u0432 \u0412.\u041F.,
+    \u0422\u0435\u0440\u0435\u0449\u0435\u043D\u043A\u043E \u0418.\u0418., \u041D\u0430\u0443\u0433\u043E\u043B\u044C\u043D\u044B\u0445
+    \u0421.\u0412.  \u041F\u0435\u0440\u043C\u0441\u043A\u0438\u0439 \u043F\u0435\u0440\u0438\u043E\u0434:
+    \u043E\u0440\u0433\u0430\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u043C\u0438\u0440
+    \u043D\u0430 \u0437\u0430\u043A\u0430\u0442\u0435 \u043F\u0430\u043B\u0435\u043E\u0437\u043E\u044F.
+    \u041F\u0435\u0440\u043C\u044C: \u0410\u0440\u0442-\u0414\u0438\u0437\u0430\u0439\u043D.
+    2009. 107 \u0441.\r\n\r\n2. \u041A\u043E\u043D\u0436\u0443\u043A\u043E\u0432\u0430
+    \u0415.\u0414. Platyops stuckenbergi Trautsch. \u2014 \u0430\u0440\u0445\u0435\u0433\u043E\u0437\u0430\u0432\u0440\u043E\u0438\u0434\u043D\u044B\u0439
+    \u043B\u0430\u0431\u0438\u0440\u0438\u043D\u0442\u043E\u0434\u043E\u043D\u0442
+    \u043D\u0438\u0436\u043D\u0438\u0445 \u0437\u043E\u043D \u0432\u0435\u0440\u0445\u043D\u0435\u0439
+    \u043F\u0435\u0440\u043C\u0438 \u041F\u0440\u0438\u0443\u0440\u0430\u043B\u044C\u044F
+    // \u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B \u043F\u043E \u043F\u0435\u0440\u043C\u0441\u043A\u0438\u043C
+    \u0438 \u0442\u0440\u0438\u0430\u0441\u043E\u0432\u044B\u043C \u043D\u0430\u0437\u0435\u043C\u043D\u044B\u043C
+    \u043F\u043E\u0437\u0432\u043E\u043D\u043E\u0447\u043D\u044B\u043C \u0421\u0421\u0421\u0420.
+    \u041C.: \u0418\u0437\u0434-\u0432\u043E \u0410\u043A\u0430\u0434\u0435\u043C\u0438\u0438
+    \u043D\u0430\u0443\u043A \u0421\u0421\u0421\u0420. 1955. \u0421. 89\u2014127.\r\n\r\n3.
+    \u0428\u0443\u043C\u043E\u0432 \u0418.\u0421.  \xAB\u041F\u043E\u0437\u0434\u043D\u0435\u043F\u0435\u0440\u043C\u0441\u043A\u0438\u0435
+    \u0440\u0435\u043F\u0442\u0438\u043B\u0438\u0438 \u0417\u0430\u043F\u0430\u0434\u043D\u043E\u0433\u043E
+    \u041F\u0440\u0438\u0443\u0440\u0430\u043B\u044C\u044F\xBB. \u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044B
+    \u0438\u0437 \u0430\u0440\u0445\u0438\u0432\u0430 \u041A\u0440\u0430\u0441\u043D\u043E\u0443\u0444\u0438\u043C\u0441\u043A\u043E\u0433\u043E
+    \u043A\u0440\u0430\u0435\u0432\u0435\u0434\u0447\u0435\u0441\u043A\u043E\u0433\u043E
+    \u043C\u0443\u0437\u0435\u044F.\r\n\r\n4. http://dinopedia.ru/dinosaur.php?id=164\r\n\r\n5.
+    \u041A\u0430\u0440\u0442\u0430 \xAB\u041F\u0435\u0440\u043C\u0441\u043A\u0438\u0439
+    \u0433\u0435\u043E\u043B\u043E\u0433\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+    \u043F\u0435\u0440\u0438\u043E\u0434\xBB. \u0421\u043E\u0441\u0442\u0430\u0432\u0438\u0442\u0435\u043B\u044C
+    \u041A.\u0410. \u0414\u043E\u0431\u0440\u044F\u043D\u0441\u043A\u0438\u0445, \u043E\u0442\u043F\u0435\u0447\u0430\u0442\u0430\u043D\u043E
+    \u0432 \u0413\u0440\u0443\u043F\u043F\u0435 \u043F\u0440\u0435\u0434\u043F\u0440\u0438\u044F\u0442\u0438\u0439
+    \xAB\u0410\u0421\u0422\u0415\u0420\xBB, \u041F\u0435\u0440\u043C\u044C,  2019
+    \u0433.\r\n\r\n6.https://ru.wikipedia.org/wiki/%D0%9F%D0%BB%D0%B0%D1%82%D0%B8%D0%BE%D0%BF%D0%BE%D0%B7%D0%B0%D0%B2%D1%80\r\n\r\n7.https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BB%D0%BE%D0%B7%D0%B0%D0%B2%D1%80%D1%8B\r\n\r\n8.https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BB%D0%BE%D0%B7%D0%B0%D0%B2%D1%80%D1%8B
+    \r\n\r\n9.https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D0%BC%D0%B5%D1%82%D1%80%D0%BE%D0%B4%D0%BE%D0%BD%D1%8B\r\n\r\n10.
+    http://enc.permculture.ru/showObject.do?object=1804990792\r\n\r\n12. https://extinct-animals.fandom.com/ru/wiki/%D0%A1%D0%BA%D1%83%D1%82%D0%BE%D0%B7%D0%B0%D0%B2%D1%80\r\n\r\n13.
+    2.https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B4%D1%91%D0%BD%D0%BA%D0%B8\r\n\r\n14.https://yandex.ru/images/search?text=\u041F\u043E\u0434\u0435\u043D\u043A\u0438%20\u0440\u0435\u043A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0446\u0438\u044F%20\u0434\u0440\u0435\u0432\u043D\u0438\u0445&stype=image&lr=54&source=wiz&pos=22&img_url=https%3A%2F%2Fzvzda.ru%2Fwp-content%2Fuploads%2Fbbf22e60f91d61c4911a290ed98ad1a0.jpeg&\r\n\r\n15.https://ru.wikipedia.org/wiki/%D0%A7%D0%B5%D0%BA%D0%B0%D1%80%D0%B4%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%B8%D0%B4%D1%8B\r\n\r\n16.
+    https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B3%D0%B0%D0%BD%D0%B5%D0%B2%D1%80%D1%8B\r\n\r\n17.
+    https://animalreader.ru/paleodiktiopteryi-doistoricheskie-nasekomyie.html\r\n"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 53206ac7576c8d145a21cda236219bb3, type: 2}
+  m_sharedMaterial: {fileID: 21167102167000612, guid: 53206ac7576c8d145a21cda236219bb3,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_outlineColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontSize: 28
+  m_fontSizeBase: 28
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 0
+  m_fontSizeMax: 0
+  m_fontStyle: 0
+  m_textAlignment: 257
+  m_isAlignmentEnumConverted: 1
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_firstOverflowCharacterIndex: -1
+  m_linkedTextComponent: {fileID: 0}
+  m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
+  m_enableKerning: 0
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_ignoreRectMaskCulling: 0
+  m_ignoreCulling: 1
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_firstVisibleCharacter: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 10, y: 10, z: 10, w: 10}
+  m_textInfo:
+    textComponent: {fileID: 0}
+    characterCount: 1819
+    spriteCount: 0
+    spaceCount: 117
+    wordCount: 347
+    linkCount: 0
+    lineCount: 57
+    pageCount: 1
+    materialCount: 2
+  m_havePropertiesChanged: 0
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_spriteAnimator: {fileID: 0}
+  m_isInputParsingRequired: 0
+  m_inputSource: 0
+  m_hasFontAssetChanged: 0
+  m_subTextObjects:
+  - {fileID: 0}
+  - {fileID: 7094953345338531015}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &8837209743661003286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6431300427397574219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1741964061, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
+--- !u!114 &4908142108187509512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6431300427397574219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ab51be2d15036449af829f1b636f3aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
